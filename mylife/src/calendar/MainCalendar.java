@@ -30,7 +30,7 @@ public class MainCalendar {
 	
 	//해당 달 첫날 요일 계산
 	public static int dayoftheweek(int y, int m) {
-		int yoil = 0; //1일때 월요일
+		var yoil = 0; //1일때 월 요 일
 		int sum = 0; //1년 1월 1일부터 총 일 수
 		
 		for (int i = 1 ; i < y ; i++) {
