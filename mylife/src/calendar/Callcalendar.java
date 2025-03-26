@@ -12,7 +12,7 @@ public class Callcalendar {
 	}
 
 	public static void main(String[] args) {
-		Scanner scn = new Scanner(System.in); //Sy stem: 표준 입출력 기능, in: 입력
+		Scanner scn = new Scanner(System.in); //System: 표준 입출력 기능, in: 입력
 		
 		LocalDate today = LocalDate.now(); //현재 날짜 가져오기
 		
