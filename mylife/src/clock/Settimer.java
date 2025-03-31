@@ -12,7 +12,7 @@ public class Settimer {
 		Timer t = new Timer();
 	
 		
-		// Clocknow.timenow(); //nowH, nowM, nowS 얻기
+		
 		LocalTime scntime = LocalTime.of(h,m,s);//타이머 설정 시간
 		int scnH = scntime.getHour();
 		int scnM = scntime.getMinute();
